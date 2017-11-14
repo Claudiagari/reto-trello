@@ -2,8 +2,11 @@
 font-family: Helvetica, sans-serif;
 margin: 0;
 box-sizing: border-box;
-background: #1485c8;
+
 color: #ffff;
+}
+body{
+    background: #1485c8;
 }
 header{
     background: #026aa7;
@@ -12,13 +15,19 @@ header{
     height: 40px;
     padding: 5px 8px;
     position: absolute;
+    vertical-align: center;
 }
-img{
-    height: 30px;
-    width: 30px;
+.tablero{
+    background: #569bc4;
+    position: absolute;
+    left:0px;
+    font-size: 20px;
+    padding:4px;
+    margin-left: 8px;    
+    text-decoration:none;
+    border-radius: 3px;
 }
-.header-icon{
-   
+.header-icon{   
     width: 73px;
     height: 30px;
 }
@@ -29,13 +38,89 @@ h1{
 }
 #text-left{
     display: inline-block;
-    padding-left: 26px;
+    padding-left: 5px;
     margin-right: 8px;
+}
+.input-search{
+    background: #569bc4;
+    display: inline-block;
+    position: absolute;
+    left:125px;
+    height:30px;
+    padding: 4px;
+    border-radius: 3px;
+}
+input{
+    border: none;
+    background: #569bc4;
 }
  header .fa {
      width: 16px;
      height: 16px;
 }
-a .center  {
-    
+.center {
+    position: absolute;
+    bottom:3px;
+    font-weight: 400;
 }
+.center i {
+    color: #569bc4;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 3px;
+}
+.info{
+    position: absolute;
+    right:0px ;
+    margin-right: 8px;
+    font-weight: 400;
+}
+.info a {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    padding-top: 8px;
+    background: #569bc4;
+    border-radius: 3px;
+    line-height: 50px;
+}
+.info i{
+    position: relative;
+    bottom: 16px;
+    font-size:18px;
+}
+img{
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    position: relative;
+    bottom: 8px;
+}
+.section2{
+    padding: 60px 20px 20px;
+    display: inline-block;
+    width: 100%;
+}
+.section2 h2,h3{
+    display: inline-block;
+    margin: 0 5px;
+}
+.fa-star-o{
+    margin: 0 5px;
+}
+.fa-lock{
+    margin: 0 5px;
+}
+.section2 a {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    margin-right:20px; 
+}
+.section2 p{
+    position: absolute;
+    right: 130px;
+    top: 55px;
+    display: inline-block;
+}
+
