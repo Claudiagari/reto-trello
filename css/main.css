@@ -2,11 +2,11 @@
 font-family: Helvetica, sans-serif;
 margin: 0;
 box-sizing: border-box;
-
-color: #ffff;
+color: #fff;
 }
 body{
     background: #1485c8;
+    color: #fff;
 }
 header{
     background: #026aa7;
@@ -16,6 +16,7 @@ header{
     padding: 5px 8px;
     position: absolute;
     vertical-align: center;
+    color: #fff;
 }
 .tablero{
     background: #569bc4;
@@ -125,7 +126,7 @@ img{
 }
 .btn{
     cursor: pointer;
-    display: inline-block;
+    display: block;
     border-radius: 5px;
     padding: 7px;
     color:rgba(255,255,255,.7);
@@ -134,6 +135,7 @@ img{
     text-align: left;
     border: none;
     margin-left: 20px;
+    font-size:14px;
 }
 .btn:hover{
     background: #055481;
@@ -167,6 +169,7 @@ img{
     padding: 4px;
     border-radius: 3px;
     margin: 0 10px;
+    display:none;
 }
 .input-list{
    width:262px;
@@ -183,4 +186,10 @@ form{
 .container-button{
     width: 262px;
     margin-top: 4px;
+}
+.show {
+    display: block;
+}
+.hide{
+    display:none;
 }
