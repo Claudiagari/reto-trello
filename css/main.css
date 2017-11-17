@@ -123,4 +123,64 @@ img{
     top: 55px;
     display: inline-block;
 }
-
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px;
+    color:rgba(255,255,255,.7);
+    background: #026aa7;
+    width: 250px;
+    text-align: left;
+    border: none;
+    margin-left: 20px;
+}
+.btn:hover{
+    background: #055481;
+}
+.save {
+    background: #5AAC44;
+    color: #fff;
+    border:none;
+    padding: 4px  16px ;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.save:hover{
+    background: #519839
+}
+.close{
+    font-size: 22px;
+    font-weight: 300;
+    color:#999;
+    line-height: 20px;
+}
+.close:hover{
+    color: #4d4d4d
+}
+.container-summit{
+    background: #E2E4E6;
+    width: 270px;
+    padding: 4px;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+.input-list{
+   width:262px;
+   padding: 7px;
+   border: 1px solid #aaa;
+   background: rgba(0, 0, 0, .05);
+   text-align: left ;
+   border-radius: 3px;
+   color: black;
+}
+form{
+    width: 262px;
+}
+.container-button{
+    width: 262px;
+    margin-top: 4px;
+}
