@@ -188,8 +188,43 @@ form{
     margin-top: 4px;
 }
 .show {
-    display: block;
+    display: inline-block;
 }
 .hide{
     display:none;
+}
+.headerList{
+    width: 270px;
+    height: 34px;
+    background:#E2E4E6; 
+    color: black;
+    display: block;
+    border-radius: 5px  5px 0px 0px;
+    margin-left: 20px;
+    font-size:14px;
+    line-height: 20px;
+    padding: 7px;
+}
+.addcard{
+    width: 270px;
+    height: 34px;
+    background:#E2E4E6; 
+    color: #4d4d4d;
+    display: block;
+    border-radius: 0  0 5px 5px;
+    margin-left: 20px;
+    font-size:14px;
+    line-height: 20px;
+    padding: 7px;
+    text-decoration:none;
+}
+.addcard:hover{
+    color: black;
+    background:#CDD2D4;
+    text-decoration:underline;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 300px;
 }
