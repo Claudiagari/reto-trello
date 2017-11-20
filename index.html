@@ -2,34 +2,41 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <!--Enlazando estilo de letra-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!--Enlazando iconos-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Enlazando archivo css-->
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
+    <!--Creando el header-->
     <header>
-        <span>
-            <a href="" class="tablero">
-                <i class="fa fa-trello" aria-hidden="true"></i>
-                <h5 id="text-left">Tableros</h5>
-            </a>   
-        </span>
-        <span class="input-search">
-        <input type="text">
-        <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
-        </span>
-        <span class="center">
-            <a href="" ><i class="fa fa-trello" aria-hidden="true"></i></a>
-            <a href=""><h1>trello</h1></a>
-        </span>
-        <span class="info">
-            <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a>
-             <img src="assets/images/clau.jpg" alt="">
-        </span>
+        <nav>
+            <span>
+                <a href="" class="tablero">
+                    <i class="fa fa-trello" aria-hidden="true"></i>
+                    <h5 id="text-left">Tableros</h5>
+                 </a>   
+            </span>
+            <span class="input-search">
+                <input type="text">
+                <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+            </span>
+            <span class="center">
+                <a href="" ><i class="fa fa-trello" aria-hidden="true"></i></a>
+                <a href=""><h1>trello</h1></a>
+            </span>
+            <span class="info">
+                <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+                <img src="assets/images/clau.jpg" alt="">
+            </span>
+        </nav>
     </header>
+    <!--Segunda fila -->
     <section>
         <div class="section2" >
             <h2>Tablero - Reto de Código</h2>
@@ -40,6 +47,7 @@
             <a href="">Mostrar menú</a>
         </div>     
     </section>
+    <!--Primera parte del formulario para añadir lsita-->
     <section id ='section'>
             <button type="button" id ="btn" class="btn">Añadir una lista...</button>
         <div class="container-summit" id='addList'>
@@ -52,6 +60,7 @@
             </form> 
         </div>  
     </section>
+    <!--Enlazando archivo javascript-->
     <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

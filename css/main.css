@@ -1,3 +1,4 @@
+/* Dando estilo general*/
 *{
 font-family: Helvetica, sans-serif;
 margin: 0;
@@ -8,6 +9,7 @@ body{
     background: #1485c8;
     color: #fff;
 }
+/*Estilo al header*/
 header{
     background: #026aa7;
     text-align: center;
@@ -63,6 +65,7 @@ input{
     position: absolute;
     bottom:3px;
     font-weight: 400;
+    font-size: 20px;
 }
 .center i {
     color: #569bc4;
@@ -97,6 +100,7 @@ img{
     position: relative;
     bottom: 8px;
 }
+/*Estilo a la segunda fila*/
 .section2{
     padding: 60px 20px 20px;
     display: inline-block;
@@ -124,6 +128,7 @@ img{
     top: 55px;
     display: inline-block;
 }
+/*Estilo a boton de añadir lista*/
 .btn{
     cursor: pointer;
     display: block;
@@ -140,6 +145,7 @@ img{
 .btn:hover{
     background: #055481;
 }
+/*Estilo al formulario para añadir lista*/
 .save {
     background: #5AAC44;
     color: #fff;
@@ -188,12 +194,14 @@ form{
     width: 262px;
     margin-top: 4px;
 }
+/*Estilo para mostrar y esconder*/
 .show {
     display: inline-block;
 }
 .hide{
     display:none;
 }
+/*Estilo que guarda el titulo de la lista */
 .headerList{
     width: 270px;
     height:auto;
@@ -208,6 +216,7 @@ form{
     font-weight: 700; 
     word-wrap: break-word;  
 }
+/*Estilo para añadir una tarjeta*/
 .addcard{
     width: 270px;
     height: 34px;
@@ -231,6 +240,7 @@ form{
     position: absolute;
     left: 300px;
 }
+/*Estilo que contiene al textarea */
 .newdiv{
     margin-top: 4px;
     background:#E2E4E6;
@@ -251,6 +261,7 @@ form{
 .textarea:focus{
     color:black;
 }
+/*Estilo que contiene al contenido de la nueva tarjeta*/
 .card {
     width: 270px;
     height: auto;
