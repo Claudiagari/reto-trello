@@ -170,6 +170,7 @@ img{
     border-radius: 3px;
     margin: 0 10px;
     display:none;
+    
 }
 .input-list{
    width:262px;
@@ -195,15 +196,17 @@ form{
 }
 .headerList{
     width: 270px;
-    height: 34px;
+    height:auto;
     background:#E2E4E6; 
     color: black;
-    display: block;
+    display:block;
     border-radius: 5px  5px 0px 0px;
     margin-left: 20px;
     font-size:14px;
     line-height: 20px;
     padding: 7px;
+    font-weight: 700; 
+    word-wrap: break-word;  
 }
 .addcard{
     width: 270px;
@@ -227,4 +230,38 @@ form{
     display: inline-block;
     position: absolute;
     left: 300px;
+}
+.newdiv{
+    margin-top: 4px;
+    background:#E2E4E6;
+    width: 270px;
+    padding: 7px;
+    margin-left: 20px;
+    border-radius:5px;
+}
+.textarea{
+    overflow: hidden;
+    width: 240px;
+    height: 54px;
+    color: black;
+    display: block;
+    margin-bottom: 4px;
+    border-radius: 3px;
+}
+.textarea:focus{
+    color:black;
+}
+.card {
+    width: 270px;
+    height: auto;
+    background:#E2E4E6; 
+    color: black;
+    display: block;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size:14px;
+    line-height: 20px;
+    padding: 7px;
+    margin-top:4px;
+    word-wrap: break-word;
 }
