@@ -63,6 +63,7 @@
         position: absolute;
         bottom:3px;
         font-weight: 400;
+        font-size: 20px;
     }
     .center i {
         color: #569bc4;
@@ -124,6 +125,11 @@
         top: 55px;
         display: inline-block;
     }
+    #section{
+        width:auto;
+        height: auto;
+        float: left;
+    }
     .btn{
         cursor: pointer;
         display: block;
@@ -169,8 +175,8 @@
         padding: 4px;
         border-radius: 3px;
         margin: 0 10px;
-        display:inline-block;
-        
+        display:block;
+        float: left;
     }
     .input-list{
        width:262px;
@@ -195,29 +201,31 @@
         display:none;
     }
     .headerList{
-       
         width: 270px;
         height: auto;
         background:#E2E4E6; 
         color: black;
         display:block;
-        border-radius: 5px  5px 0px 0px;
+        border-radius: 5px;
         margin-left: 20px;
         font-size:14px;
         line-height: 20px;
         padding: 7px;
         font-weight: 700;
         word-wrap: break-word;
-        
+        float: left;
+    }
+    .left{
+        position: relative;
+        right:  300px;
     }
     .addcard{
-        width: 270px;
+        width: 259px;
         height: 34px;
         background:#E2E4E6; 
         color: #4d4d4d;
-        display: block;
+        display:inline-block;;
         border-radius: 0  0 5px 5px;
-        margin-left: 20px;
         font-size:14px;
         line-height: 20px;
         padding: 7px;
@@ -228,22 +236,16 @@
         background:#CDD2D4;
         text-decoration:underline;
     }
-    .left{
-        display: inline-block;
-        position: absolute;
-        left: 300px;
-    }
     .newdiv{
         margin-top: 4px;
         background:#E2E4E6;
-        width: 270px;
+        width: 245px;
         padding: 7px;
-        margin-left: 20px;
         border-radius:5px;
     }
     .textarea{
        overflow: hidden;
-        width: 240px;
+        width: 231px;
         height: 54px;
         color: black;
         display: block;
@@ -254,16 +256,16 @@
         color:black;
     }
     .card {
-        width: 270px;
+        width: 254px;
         height: auto;
-        background:#E2E4E6; 
+        background:#ffff;
         color: black;
         display: block;
         border-radius: 5px;
-        margin-left: 20px;
         font-size:14px;
+        font-weight: 400;
         line-height: 20px;
-        padding: 7px;
+        padding:6px 6px 2px 8px;
         margin-top:4px;
-         word-wrap: break-word;
+        word-wrap: break-word;
     }

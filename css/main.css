@@ -175,8 +175,8 @@ img{
     padding: 4px;
     border-radius: 3px;
     margin: 0 10px;
-    display:none;
-    
+    display:block;
+    float: left;
 }
 .input-list{
    width:262px;
@@ -208,23 +208,23 @@ form{
     background:#E2E4E6; 
     color: black;
     display:block;
-    border-radius: 5px  5px 0px 0px;
+    border-radius: 5px;
     margin-left: 20px;
     font-size:14px;
     line-height: 20px;
     padding: 7px;
     font-weight: 700; 
-    word-wrap: break-word;  
+    word-wrap: break-word;
+    float: left;  
 }
 /*Estilo para añadir una tarjeta*/
 .addcard{
-    width: 270px;
+    width: 259px;
     height: 34px;
     background:#E2E4E6; 
     color: #4d4d4d;
     display: block;
     border-radius: 0  0 5px 5px;
-    margin-left: 20px;
     font-size:14px;
     line-height: 20px;
     padding: 7px;
@@ -244,14 +244,13 @@ form{
 .newdiv{
     margin-top: 4px;
     background:#E2E4E6;
-    width: 270px;
+    width: 245px;
     padding: 7px;
-    margin-left: 20px;
     border-radius:5px;
 }
 .textarea{
     overflow: hidden;
-    width: 240px;
+    width: 231px;
     height: 54px;
     color: black;
     display: block;
@@ -263,14 +262,14 @@ form{
 }
 /*Estilo que contiene al contenido de la nueva tarjeta*/
 .card {
-    width: 270px;
+    width: 254px;
     height: auto;
-    background:#E2E4E6; 
+    background:#ffff; 
     color: black;
     display: block;
     border-radius: 5px;
-    margin-left: 20px;
     font-size:14px;
+    font-weight: 400;
     line-height: 20px;
     padding: 7px;
     margin-top:4px;
